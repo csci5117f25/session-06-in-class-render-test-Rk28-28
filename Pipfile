@@ -4,8 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
 gunicorn = "*"
+importlib-metadata = "*"
+python-dotenv = "*"
+flask = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
